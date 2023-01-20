@@ -42,4 +42,19 @@
 ### 결과
 ![image](https://user-images.githubusercontent.com/83294376/213607576-3fe9672a-0f1b-482d-8e43-153a08f12ec6.png)
 
+<br>
+
+# *problem_d*  
+
+## movie_info( )
+> 영화 중 가장 높은 수익을 낸 영화를 출력하는 함수
+
+### 필요 정보
+* `movies 폴더` 에서 각 파일의 revenue 확인
+* revenue가 가장 높은 영화의 제목을 반환
+    * *orginal_title*이 아닌 **title** 사용
+
+### 결과
+![image](https://user-images.githubusercontent.com/83294376/213614674-71d0038f-3305-4c75-99f1-d0921cb8a1d6.png)
+
 
