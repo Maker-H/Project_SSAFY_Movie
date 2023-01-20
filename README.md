@@ -57,5 +57,19 @@
 ### 결과
 ![image](https://user-images.githubusercontent.com/83294376/213614674-71d0038f-3305-4c75-99f1-d0921cb8a1d6.png)
 
+<br>
+
+# *problem_e*  
+
+## dec_movies( )
+> 12월에 개봉한 영화들의 제목 리스트를 반환하는 함수
+
+### 필요 정보
+* `movies 폴더` 에서 각 파일의 **release_date** 확인
+* 개봉일이 12월인 영화들의 제목을 리스트로 반환
+    * *orginal_title*이 아닌 **title** 사용
+
+### 결과
+![image](https://user-images.githubusercontent.com/83294376/213616337-6b70edcc-3941-4b9f-955e-8a9e7472b048.png)
 
 
