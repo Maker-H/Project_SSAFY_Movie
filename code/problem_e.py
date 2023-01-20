@@ -2,9 +2,17 @@ import json
 
 
 def dec_movies(movies):
-    pass 
-    # 여기에 코드를 작성합니다.  
-        
+    release_dec_movies = []
+    for one_ele_movie in movies:
+        movie_id = one_ele_movie.get('id')
+        movie_file_name = f'data/movies/{movie_id}.json'
+        movie_json = open(movie_file_name, encoding='utf-8')
+        movie_list = json.load(movie_json)
+
+        if movie_list.get('release_date')[5:7] == '12': 
+            release_dec_movies.append(movie_list.get('title'))
+
+    return release_dec_movies        
 
 # 아래의 코드는 수정하지 않습니다.
 if __name__ == '__main__':
