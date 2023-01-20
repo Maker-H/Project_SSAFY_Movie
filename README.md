@@ -46,7 +46,7 @@
 
 # *problem_d*  
 
-## movie_info( )
+## max_revenue( )
 > 영화 중 가장 높은 수익을 낸 영화를 출력하는 함수
 
 ### 필요 정보
