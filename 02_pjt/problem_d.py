@@ -14,14 +14,11 @@ def recommendation(title):
     search_response = requests.get(BASE_URL + search_path, params=search_params).json()
     searched_movies = search_response.get('results')
     
-    id = 0
-    for searched_movie in searched_movies:
-        if searched_movie.get('title') == title:
-            id = searched_movie.get('id')
-            break
-        else:
-            return None
-
+    if not searched_movies:
+        return None
+    else:
+        id = searched_movies[0].get('id')
+    
     recommend_path = f'/movie/{id}/recommendations'
     recommend_params = {
     'api_key' : '5bacb04d2b05e092546e27ae66aa1c69',

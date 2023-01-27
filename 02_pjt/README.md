@@ -61,7 +61,7 @@ Index
 
 ### 필요 정보
 - 제공된 영화 제목으로 TMDB에서 영화를 검색(Search Movies)
-- 제공된 영화의 id를 기준으로 해당 영화에 대한 추천 영화 목록(Get Recommendations)을 가져옴  
+- 제공된 영화중 **첫번째 영화의** id를 기준으로 해당 영화에 대한 추천 영화 목록(Get Recommendations)을 가져옴  
 - 추천 영화 목록 중 **첫번째 영화만** 반환
 
 ### 제약 사항
