@@ -50,3 +50,23 @@ Index
 
 ### 결과
 ![image](https://user-images.githubusercontent.com/83294376/214999585-cb60f340-5b80-4cfa-8468-814b06f3d2e7.png)
+
+<br>
+<br>
+
+# *problem_d*
+
+## recommendation( )
+> 제공된 영화 제목을 검색하여 추천 영화 목록을 반환하는 함수
+
+### 필요 정보
+- 제공된 영화 제목으로 TMDB에서 영화를 검색(Search Movies)
+- 제공된 영화의 id를 기준으로 해당 영화에 대한 추천 영화 목록(Get Recommendations)을 가져옴  
+- 추천 영화 목록 중 **첫번째 영화만** 반환
+
+### 제약 사항
+- 검색한 영화 정보가 없다면 None 반환
+- 추천 영화 없을 경우 [] 반환
+
+### 결과
+![image](https://user-images.githubusercontent.com/83294376/215000855-7a9f23d3-fc87-43bd-a1fb-dd7b76d8fa2e.png)
