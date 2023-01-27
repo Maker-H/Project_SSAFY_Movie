@@ -1,12 +1,13 @@
 ## Index
-### [1. probelm_a - ✔️movie_info( )]()
-### [2. problem_b - ✔️movie_info( )]()
-### [3. problem_c - ✔️movie_info( )]()
-### [4. problem_d - ✔️max_revenue( )]()
-### [5. problem_e - ✔️dec_movies( )]()
-### [6. 🚀프로젝트 회고!]
+### [1. probelm_a - ✔️movie_info( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/01_pjt#movie_info-)
+### [2. problem_b - ✔️movie_info( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/01_pjt#movie_info--1)
+### [3. problem_c - ✔️movie_info( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/01_pjt#movie_info--2)
+### [4. ✔️max_revenue( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/01_pjt#max_revenue-)
+### [5. ✔️dec_movies( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/01_pjt#dec_movies-)
+### [6. 🚀프로젝트 회고!](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/01_pjt#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0---20230120)
 
 ---
+<br>
 <br>
 
 
@@ -21,6 +22,7 @@
 ### 결과
 ![image](https://user-images.githubusercontent.com/83294376/213602885-5976c6c4-7556-4dbf-bcb4-7204e13215b5.png)
 
+<br>
 <br>
 
 # *problem_b*  
@@ -39,6 +41,7 @@
 
 
 <br>
+<br>
 
 # *problem_c*  
 
@@ -55,6 +58,7 @@
 ![image](https://user-images.githubusercontent.com/83294376/213607576-3fe9672a-0f1b-482d-8e43-153a08f12ec6.png)
 
 <br>
+<br>
 
 # *problem_d*  
 
@@ -69,6 +73,7 @@
 ### 결과
 ![image](https://user-images.githubusercontent.com/83294376/213614674-71d0038f-3305-4c75-99f1-d0921cb8a1d6.png)
 
+<br>
 <br>
 
 # *problem_e*  
@@ -85,6 +90,7 @@
 ![image](https://user-images.githubusercontent.com/83294376/213616337-6b70edcc-3941-4b9f-955e-8a9e7472b048.png)
 
 
+<br>
 <br>
 
 # 프로젝트 회고 - 2023/01/20
