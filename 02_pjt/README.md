@@ -4,7 +4,7 @@
 ### 3. [✔️ranking( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%EF%B8%8Franking-)
 ### 4. [✔️recommendation( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%EF%B8%8Frecommendation-)
 ### 5. [✔️credits( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%EF%B8%8Fcredits-)
-### 6. [🚀회고](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0---20230127)
+### 6. [🚀프로젝트 회고!](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0---20230127)
 
 
 
@@ -103,3 +103,6 @@
 <br>
 
 # 프로젝트 회고 - 2023/01/27
+`프로젝트 회고`
+
+이번 프로젝트를 하면서 requests 라이브러리에 익숙해진거 같고 계속 데이터들을 다루다 보니 클롤링 자체에 익숙해진거 같습니다. 또한 API를 막연하게 생각했는데 이번 기회로 제가 어렵다고 생각한 것들이 어려운 것이 아닌 익숙하지 않은 것이라는 생각을 가지게 되었습니다. 실패할지라도 다음 배움의 초석이 될 수도 있으니 이 프로젝트를 계기로 새로운 것들에 많이 도전하고 싶습니다.  
