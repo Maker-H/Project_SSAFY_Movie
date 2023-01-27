@@ -3,10 +3,45 @@ from pprint import pprint
 
 
 def credits(title):
-    pass 
-    # 여기에 코드를 작성합니다.  
+    BASE_URL = 'https://api.themoviedb.org/3'
+    search_path = '/search/movie'
+    search_params = {
+    'api_key' : '5bacb04d2b05e092546e27ae66aa1c69',
+    'language' : 'ko-Kr',
+    'query' : title,
+    } 
 
+    search_response = requests.get(BASE_URL + search_path, params=search_params).json()
+    searched_movies = search_response.get('results')
+    
+    if not searched_movies:
+        return None
+    else:
+        id = searched_movies[0].get('id')
+    
+    credits_path = f'/movie/{id}/credits'
+    credits_params = {
+    'api_key' : '5bacb04d2b05e092546e27ae66aa1c69',
+    'language' : 'ko-Kr',
+    } 
+    credits_response = requests.get(BASE_URL + credits_path, params=credits_params).json()
+    credits_casts = credits_response.get('cast')
 
+    cast = []
+    directing = []
+    for credits_cast in credits_casts:
+        if credits_cast.get('cast_id') < 10:
+            cast.append(credits_cast.get('name'))
+
+    credits_crews = credits_response.get('crew')
+    for credits_crew in credits_crews:
+        crew_name = credits_crew.get('name')
+        crew_department = credits_crew.get('department') 
+        if  crew_department == 'Directing' and crew_name not in directing:
+            directing.append(crew_name)
+   
+    return {'cast':cast, 'directing': directing}
+    
 # 아래의 코드는 수정하지 않습니다.
 if __name__ == '__main__':
     """

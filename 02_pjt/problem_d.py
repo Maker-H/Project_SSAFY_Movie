@@ -19,7 +19,7 @@ def recommendation(title):
     else:
         id = searched_movies[0].get('id')
     
-    recommend_path = f'/movie/{id}/recommendations'
+    recommend_path = f'/movie/{id}/credits'
     recommend_params = {
     'api_key' : '5bacb04d2b05e092546e27ae66aa1c69',
     'language' : 'ko-Kr',
