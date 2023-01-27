@@ -9,7 +9,7 @@ def popular_count():
     path = '/movie/popular'
     params = {
         'api_key' : '5bacb04d2b05e092546e27ae66aa1c69',
-        'language' : ' ko',
+        'language' : 'ko',
         'region' : 'Kr',
     } # page는 디폴트라 넣지않는다.
     
