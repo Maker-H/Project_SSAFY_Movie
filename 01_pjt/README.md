@@ -1,15 +1,10 @@
 ## Index
-1. probelm_a
-    * movie_info( )
-2. problem_b
-    * movie_info( )
-3. problem_c
-    * movie_info( )
-4. problem_d
-    * max_revenue( )
-5. problem_e
-    * dec_movies( )
-6. 프로젝트 회고!
+### [1. probelm_a - ✔️movie_info( )]()
+### [2. problem_b - ✔️movie_info( )]()
+### [3. problem_c - ✔️movie_info( )]()
+### [4. problem_d - ✔️max_revenue( )]()
+### [5. problem_e - ✔️dec_movies( )]()
+### [6. 🚀프로젝트 회고!]
 
 ---
 <br>
