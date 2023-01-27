@@ -3,8 +3,19 @@ from pprint import pprint
 
 
 def ranking():
-    pass 
-    # 여기에 코드를 작성합니다.  
+  BASE_URL = 'https://api.themoviedb.org/3'
+  path = '/movie/popular'
+  params = {
+    'api_key' : '5bacb04d2b05e092546e27ae66aa1c69',
+    'language' : 'ko',
+    'region' : 'Kr',
+  } 
+
+  response = requests.get(BASE_URL + path, params=params).json()
+  movies = response.get('results')
+
+  highest_sort_movies = sorted(movies, reverse=True, key=lambda x: x.get('vote_average'))
+  return highest_sort_movies[:5]
 
 
 # 아래의 코드는 수정하지 않습니다.
