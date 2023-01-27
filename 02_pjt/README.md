@@ -1,15 +1,16 @@
-### Index
-1. [✔️popular_count( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#popular_count-)
-2. [✔️vote_average_movies( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#vote_average_movies-)
-3. [✔️ranking( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#ranking-)
-4. [✔️recommendation( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#recommendation-)
-5. [✔️credits( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#credits-)
-6. [회고]
+## Index
+### 1. [✔️popular_count( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%EF%B8%8Fpopular_count-)
+### 2. [✔️vote_average_movies( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%EF%B8%8Fvote_average_movies-)
+### 3. [✔️ranking( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%EF%B8%8Franking-)
+### 4. [✔️recommendation( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%EF%B8%8Frecommendation-)
+### 5. [✔️credits( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%EF%B8%8Fcredits-)
+### 6. [🚀회고](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0---20230127)
 
 
 
 ---
 
+<br>
 <br>
 
 # *problem_a*
