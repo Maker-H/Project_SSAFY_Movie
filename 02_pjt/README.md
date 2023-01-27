@@ -1,6 +1,11 @@
-Index
-1. probelm_a
-  - popular_count( )
+### Index
+1. [✔️popular_count( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#popular_count-)
+2. [✔️vote_average_movies( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#vote_average_movies-)
+3. [✔️ranking( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#ranking-)
+4. [✔️recommendation( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#recommendation-)
+5. [✔️credits( )](https://github.com/Maker-H/Project_SSAFY_Movie/tree/master/02_pjt#credits-)
+6. [회고]
+
 
 
 ---
@@ -9,7 +14,7 @@ Index
 
 # *problem_a*
 
-## popular_count( )
+## ✔️popular_count( )
 > 현재 인기있는 영화의 개수를 반환하는 함수
 
 ### 필요 정보
@@ -24,7 +29,7 @@ Index
 
 # *problem_b*
 
-## vote_average_movies( )
+## ✔️vote_average_movies( )
 > 8점 이상인 영화 목록을 반환하는 함수
 
 ### 필요 정보
@@ -40,7 +45,7 @@ Index
 
 # *problem_c*
 
-## ranking( )
+## ✔️ranking( )
 > 평점이 높은 5개의 영화 데이터 목록 반환하는 함수
 
 ### 필요 정보
@@ -56,7 +61,7 @@ Index
 
 # *problem_d*
 
-## recommendation( )
+## ✔️recommendation( )
 > 제공된 영화 제목을 검색하여 추천 영화 목록을 반환하는 함수
 
 ### 필요 정보
@@ -70,3 +75,30 @@ Index
 
 ### 결과
 ![image](https://user-images.githubusercontent.com/83294376/215000855-7a9f23d3-fc87-43bd-a1fb-dd7b76d8fa2e.png)
+
+
+<br>
+<br>
+
+# *problem_e*
+
+## ✔️credits( )
+> 제공된 영화 제목을 검색하여 해당 영화의 출연진(cast)과 스태프(crew) 중 연출진(Directing)의 이름을 반환하는 함수
+
+### 필요 정보
+- 제공된 영화 제목으로 TMDB에서 영화를 검색(Search Movies)
+- 제공된 영화 중 **첫번째 영화의** id를 기준으로 해당 영화에 대한 출연진과 스태프 목록(Get Credits)를 가져옴  
+- 데이터 추출하여 반환
+  - 출연진 : cast_id 값이 10 미만이면 추출
+  - 연출진 : 스태프 부서(department)가 Directing인 데이터만 추출
+
+### 제약 사항
+- 검색한 영화 정보가 없다면 None 반환
+
+### 결과
+![image](https://user-images.githubusercontent.com/83294376/215011719-3654a1c0-b43c-41f6-a272-6d462c3380c3.png)
+
+<br>
+<br>
+
+# 프로젝트 회고 - 2023/01/27
